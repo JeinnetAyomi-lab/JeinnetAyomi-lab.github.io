@@ -131,3 +131,73 @@
 
 </body>
 </html>
+
+/* Desain Khusus untuk Bagian Latihan */
+        .latihan-section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-left: 5px solid #00897b; /* Warna Hijau Teal untuk pembeda */
+            margin-top: 30px;
+        }
+
+        .latihan-section h2 {
+            color: #004d40;
+            border-bottom: 2px solid #e0f2f1;
+            padding-bottom: 15px;
+        }
+
+        .tag-latihan {
+            display: inline-block;
+            background-color: #e0f2f1;
+            color: #00796b;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            background: #f1f8f7;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.95em;
+            border-left: 3px solid #00897b;
+        }
+<section class="latihan-section">
+            <span class="tag-latihan">Praktik Mandiri</span>
+            <h2>Implementasi Studi Kasus: Sistem Pekerja & MathUtils</h2>
+            
+            <p>
+                Bagian ini menampilkan hasil pengerjaan latihan mandiri yang menggabungkan konsep 
+                <strong>Multiple Interface</strong>, <strong>Polimorfisme pada List</strong>, dan 
+                <strong>Static Methods</strong>.
+            </p>
+
+            <div class="feature-list">
+                <div class="feature-item"><strong>Pekerja:</strong> Implementasi Abstraksi & Polimorfisme.</div>
+                <div class="feature-item"><strong>Tablet:</strong> Simulasi Multiple Interface (Komputer, Kamera, Telepon).</div>
+                <div class="feature-item"><strong>MathUtils:</strong> Penggunaan Static untuk fungsi matematika.</div>
+                <div class="feature-item"><strong>Logic:</strong> Pengecekan Bilangan Prima & Rata-rata.</div>
+            </div>
+
+            <p>Berikut adalah source code lengkap untuk solusi latihan tersebut:</p>
+
+            <div class="gist-container">
+                <script src="https://gist.github.com/JeinnetAyomi-lab/c3f516cb58e80682054cea21117d935a"></script>
+            </div>
+
+            <p class="note">
+                Tugas ini mendemonstrasikan fleksibilitas Dart dalam menangani banyak kontrak (interface) sekaligus dalam satu kelas tunggal.
+            </p>
+        </section>

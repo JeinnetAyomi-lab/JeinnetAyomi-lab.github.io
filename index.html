@@ -1,14 +1,133 @@
-<section style="margin-top: 50px;">
-    <hr>
-    <h2 style="color: #2c3e50;">Sesi 4: Polimorfisme dan Abstraksi</h2>
-    <p style="font-size: 1.1em; color: #555;">
-        Resume ini membahas konsep OOP lanjutan di mana sebuah objek dapat memiliki banyak bentuk (Polimorfisme) 
-        dan penggunaan kelas abstrak sebagai cetak biru (Abstraksi).
-    </p>
-
-    <script src="https://gist.github.com/JeinnetAyomi-lab/caae64787435edc7239388db1122bb23.js"></script>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio OOP Jeinnet Verara Ayomi</title>
     
-    <p style="font-style: italic; color: #888;">
-        Catatan: Konsep ini menggunakan operator 'is' untuk pengecekan tipe dan 'as' untuk casting.
-    </p>
-</section>
+    <style>
+        /* 1. Pengaturan Dasar Halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8; /* Warna latar belakang abu-abu sangat muda */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* 2. Desain Header (Bagian Atas) */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Gradasi warna Ungu-Biru modern */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* 3. Pengaturan Konten Utama */
+        main {
+            max-width: 900px; /* Lebar maksimal konten agar nyaman dibaca */
+            margin: 40px auto; /* Memberi jarak atas-bawah dan rata tengah */
+            padding: 0 20px;
+        }
+
+        /* 4. Desain Section Sesi 4 (Kartu Konten) */
+        .sesi-section {
+            background-color: white; /* Warna latar belakang kartu putih clean */
+            padding: 30px;
+            border-radius: 15px; /* Sudut membulat */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Bayangan lembut */
+            border-left: 5px solid #764ba2; /* Garis vertikal warna ungu di kiri */
+        }
+
+        /* 5. Warna Judul Section */
+        .sesi-section h2 {
+            color: #4a148c; /* Warna ungu tua untuk judul */
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 15px;
+            margin-top: 0;
+        }
+
+        /* 6. Penataan Paragraf */
+        .sesi-section p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        /* 7. Pengaturan Desain Kotak Gist (Embed Code) */
+        .gist-container {
+            margin: 25px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden; /* Agar sudut bulat gist terlihat */
+        }
+
+        /* 8. Jarak Tambahan untuk Catatan */
+        .note {
+            font-style: italic;
+            color: #777;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* 9. Desain Footer (Bagian Bawah) */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portofolio OOP</h1>
+        <p>Mahasiswa Sistem Informasi | Jeinnet Verara Ayomi</p>
+    </header>
+
+    <main>
+        <section class="sesi-section">
+            <h2>Sesi 4: Polimorfisme dan Abstraksi</h2>
+            <p>
+                Selamat datang di resume materi Sesi 4. Di sini saya membahas konsep OOP lanjutan, yaitu:
+            </p>
+            <ul>
+                <li><strong>Abstraksi:</strong> Membuat cetak biru kelas (abstract class) untuk fokus pada fungsi inti.</li>
+                <li><strong>Polimorfisme:</strong> Kemampuan objek berbeda untuk merespons perintah yang sama.</li>
+            </ul>
+
+            <p>Berikut adalah implementasi kodenya dalam bahasa Dart:</p>
+
+            <div class="gist-container">
+                <script src="https://gist.github.com/JeinnetAyomi-lab/caae64787435edc7239388db1122bb23.js"></script>
+            </div>
+            
+            <p class="note">
+                Catatan: Konsep ini juga mendemonstrasikan penggunaan operator 'is' untuk pengecekan tipe dan 'as' untuk casting objek.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Jeinnet Ayomi. Dibuat dengan semangat belajar.</p>
+    </footer>
+
+</body>
+</html>
